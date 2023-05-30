@@ -1,0 +1,22 @@
+.loader {
+	z-index: 11;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 101vh;
+}
+
+.cell {
+	width: 112px;
+	object-fit: contain;
+	height: 112px;
+}
+
+.parag {
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: bold;
+	font-size: 33px;
+	margin-top: 17px;
+}

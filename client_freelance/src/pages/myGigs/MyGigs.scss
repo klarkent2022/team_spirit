@@ -1,0 +1,62 @@
+.list {
+  justify-content: center;
+  color: #545252;
+  display: flex;
+
+  .container {
+    padding: 52px 2px;
+    width: 1402px;
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+
+      button {
+        background-color: #9c1dbf;
+        color: rgb(251, 250, 250);
+        font-weight: 503;
+        border: none;
+        padding: 12px;
+        cursor: pointer;
+      }
+    }
+    
+    .loader-container {
+      height: 52vh;
+      align-items: center;
+      justify-content: center;
+      display: flex;
+    }
+
+    table {
+      width: 98%;
+
+      tr {
+        height: 52px;
+        th {
+          text-align: left;
+        }
+        td {
+          
+          .imageD {
+            object-fit: cover;
+            width: 52px;
+            height: 27px;
+          }
+          button {
+            background-color: transparent;
+            border-color: transparent;
+            .delete {
+              cursor: pointer;
+              width: 22px;
+            }
+          }
+
+        }
+        &:nth-child(even) {
+          background-color: #bc61e30f;
+        }
+      }
+    }
+  }
+}

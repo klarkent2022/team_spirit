@@ -1,0 +1,53 @@
+.outerDiv {
+  display: flex;
+  justify-content: center;
+  color: #2a2929;
+  margin: 60px 15px;
+  margin-top: 500px;
+
+  img {
+    width: 27px;
+    height: 27px;
+  }
+
+  .wrapper {
+    width: 1460px;
+    hr {
+      margin: 55px 5px;
+      border: 2px solid #939292;
+    }
+    .innerWrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .leftSide {
+        width: max-content;
+        display: flex;
+        align-items: center;
+        gap: 24px;
+
+        span {
+          font-size: 13px;
+        }
+      }
+      .right {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        width: max-content;
+
+        .contacts {
+          gap: 22px;
+          display: flex;
+        }
+
+        .nice {
+          align-items: center;
+          display: flex;
+          gap: 12px;
+        }
+      }
+    }
+  }
+}

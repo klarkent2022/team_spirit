@@ -1,0 +1,61 @@
+.allgigs {
+  display: flex;
+  width: 97%;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    width: 1410px;
+    display: flex;
+    padding: 33px 2px;
+    gap: 18px;
+    flex-direction: column;
+
+    p {
+      color: #817e7e;
+      font-weight: 303;
+    }
+
+      .minmax {
+        display: flex;
+        color: #4f4d4d;
+        align-items: center;
+        gap: 12px;
+        font-weight: 303;
+        margin-bottom: 5%;
+
+        input{
+          padding: 6px;
+          border-radius: 6px;
+          outline: none;
+          border: 2px solid #c0bdbd;
+          &::placeholder{
+            color: #979595;
+          }
+        }
+
+        button{
+          font-weight: 503;
+          padding: 6px 11px;
+          background-color: #911dbf;
+          color: white;
+          cursor: pointer;
+          border: none;
+          border-radius: 6px;
+        }
+      }
+
+    .gigcards {
+      flex-wrap: wrap;
+      gap: 28px;
+      display: flex;
+    }
+
+    .loader {
+      display: flex;
+      height: 50vh;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

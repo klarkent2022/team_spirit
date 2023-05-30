@@ -1,0 +1,302 @@
+.gigDetails {
+  display: flex;
+  justify-content: center;
+
+  .container {
+    width: 1410px;
+    padding: 33px 15px;
+    display: flex;
+    gap: 55px;
+
+    .leftSide {
+      flex: 2;
+      display: flex;
+      flex-direction: column;
+
+      h1 {
+        margin-bottom: 0;
+      }
+
+      .currentUser {
+        display: flex;
+        align-items: center;
+
+        span {
+          font-size: 14px;
+          font-weight: 500;
+        }
+
+        .mainImage {
+          width: 850px;
+          height: 80%;
+        }
+
+        .avatar {
+          width: 32px;
+          height: 32px;
+          border-radius: 53%;
+          object-fit: cover;
+        }
+
+        .rankings {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+
+          img {
+            height: 13px;
+            width: 13px;
+          }
+
+          span {
+            font-size: 13px;
+            font-weight: bold;
+            color: #ffc108;
+          }
+        }
+      }
+
+      h2 {
+        font-weight: 403;
+      }
+
+      p {
+        font-weight: 302;
+        line-height: 27px;
+        color: #464545;
+      }
+
+      .sellerInfo {
+        margin-top: 52px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+
+        .currentUser {
+          display: flex;
+          align-items: center;
+          gap: 22px;
+
+          img {
+            width: 102px;
+            height: 102px;
+            border-radius: 52%;
+            object-fit: cover;
+          }
+
+          .rating {
+            display: flex;
+            flex-direction: column;
+          }
+        }
+
+        .extraInfo {
+          border: 2px solid rgb(183, 182, 182);
+          border-radius: 6px;
+          padding: 22px;
+          margin-top: 52px;
+
+          .extraInfoWrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            .gell {
+              width: 303px;
+              flex-direction: column;
+              gap: 12px;
+              margin-bottom: 23px;
+              display: flex;
+
+              .title {
+                font-weight: 300;
+              }
+            }
+          }
+
+          hr {
+            height: 0;
+            border: 0.5px solid lightgray;
+            margin-bottom: 22px;
+          }
+        }
+      }
+      .leave_review {
+        width: 80%;
+
+        .x {
+          display: flex;
+          flex-direction: column;
+          gap: 11px;
+
+          textarea {
+            width: 97%;
+            padding: 31px;
+            resize: none;
+          }
+
+          button {
+            background-color: #a11dbf;
+            color: white;
+            border: none;
+            padding: 11px;
+            width: 32%;
+            font-size: 19px;
+            cursor: pointer;
+            align-self: center;
+            font-weight: 503;
+          }
+        }
+      }
+
+      .reviews {
+        margin-top: 50px;
+        .gell {
+          margin: 22px 2px;
+          display: flex;
+          gap: 23px;
+          flex-direction: column;
+          .currentUser {
+            display: flex;
+            align-items: center;
+            .avatar {
+              height: 52px;
+              width: 52px;
+              border-radius: 52%;
+            }
+
+            .fromcountry {
+              display: flex;
+              align-items: center;
+              gap: 10px;
+              color: gray;
+
+              img {
+                width: 22px;
+              }
+            }
+          }
+
+          .rankings {
+            display: flex;
+            gap: 6px;
+
+            img {
+              height: 16px;
+              width: 16px;
+            }
+
+            span {
+              font-size: 16px;
+              font-weight: bold;
+              color: #eab105;
+            }
+          }
+
+          .washelpful {
+            display: flex;
+            align-items: center;
+            gap: 11px;
+
+            img {
+              width: 16px;
+            }
+          }
+        }
+
+        hr {
+          height: 0;
+          border: 0.5px solid lightgray;
+          margin: 52px 1px;
+        }
+      }
+    }
+
+    .rightSide {
+      flex: 1;
+      flex-direction: column;
+      border: 1px solid lightgray;
+      padding: 23px;
+      border-radius: 6px;
+      max-height: 503px;
+      position: sticky;
+      display: flex;
+      top: 153px;
+      height: max-content;
+      gap: 22px;
+
+      .pricing {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .price_value {
+          display: flex;
+          align-items: center;
+          gap: 6px;
+
+          img {
+            width: 20px;
+            height: 20px;
+            margin-left: 0;
+          }
+        }
+
+        h2{
+          font-weight: 300;
+        }
+
+        h3{
+          font-weight: 500;
+        }
+      }
+
+      p{
+        color: gray;
+        margin: 10px 0px;
+      }
+
+      .details {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        justify-content: space-between;
+
+        .gell {
+          align-items: center;
+          display: flex;
+          gap: 13px;
+
+          img {
+            width: 23px;
+          }
+        }
+      }
+
+      .parameterss{
+        .hell {
+          align-items: center;
+          color: rgb(123, 120, 120);
+          gap: 12px;
+          margin-bottom: 8px;
+          display: flex;
+          font-weight: 304;
+
+          img{
+            width: 14px;
+          }
+        }
+      }
+
+      button{
+        background-color: #9c1dbf;
+        padding: 11px;
+        color: white;
+        font-weight: 503;
+        border: none;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    }
+  }
+}
